@@ -6,3 +6,26 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+class Hoodies {
+    constructor(
+        brand,
+        color,
+        size,
+        gender,
+        pockets,
+        keepIt
+    ) {
+        this.brand = brand,
+        this.color = color,
+        this.size = size,
+        this.gender = gender,
+        this.pockets = pockets,
+        this.keepIt = keepIt
+    }
+    shouldKeep(keepIt) {
+        this.keepIt = keepIt;
+    }
+}
+
+export default Hoodies;
